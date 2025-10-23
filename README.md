@@ -57,7 +57,7 @@ Posterior probability `P(malicious | flagged)` is computed to evaluate real-worl
 ## 📈 Visualizations
 
 ### 🌈 Distribution of Embedding Feature Values  
-![Embedding Distribution](C:\Users\athar\Desktop\Spectra_AI_Anomaly_Detection\images\embedding_distribution.png)
+![Embedding Distribution](https://github.com/Kulkarni-ui/Spectra_AI_Anomaly_Detection/blob/main/images/Distribution%20of%20Embedding%20Feature%20Values%20spectra.png)
 
 ### 📊 Histogram of Mahalanobis Distances  
 ![Mahalanobis Histogram](images/Histogram_of_Mahalanobis_Distances.png)
