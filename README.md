@@ -1,4 +1,4 @@
-# 🚀 Spectra_AI_Anomaly_Detection  
+# Spectra_AI_Anomaly_Detection  
 **Prompt-Level Anomaly Detection for AI Safety using Mahalanobis Distance, Ledoit–Wolf Covariance, and Bayesian Inference**
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
@@ -8,7 +8,7 @@
 
 ---
 
-## 📘 Overview
+## Overview
 This project was developed as part of the **Spectra AI Mini Challenge**, focusing on building an **interpretable anomaly detection system** for identifying unsafe or malicious AI prompts.  
 It leverages:
 - **Mahalanobis Distance** for measuring prompt embedding deviations,  
@@ -17,7 +17,7 @@ It leverages:
 
 ---
 
-## 🧠 Methodology
+## Methodology
 
 ### 1️⃣ Feature Extraction  
 Prompt embeddings are obtained from a pre-trained LLM encoder and stored as `.npy` files.  
@@ -38,7 +38,7 @@ Posterior probability `P(malicious | flagged)` is computed to evaluate real-worl
 
 ---
 
-## 📊 Results Summary
+## Results Summary
 
 | **Metric** | **Value** | **Interpretation** |
 |-------------|------------|--------------------|
@@ -54,24 +54,24 @@ Posterior probability `P(malicious | flagged)` is computed to evaluate real-worl
 
 ---
 
-## 📈 Visualizations
+## Visualizations
 
-### 🧩 Distribution of Embedding Feature Values
+### Distribution of Embedding Feature Values
 ![Embedding Distribution](images/Distribution%20of%20Embedding%20Feature%20Values.png)
 
 ---
 
-### 📉 Histogram of Mahalanobis Distances
+### Histogram of Mahalanobis Distances
 ![Mahalanobis Histogram](images/Histogram%20of%20Mahalanobis%20Distances.png)
 
 ---
 
-### 🎯 ROC Curve (Mahalanobis)
+### ROC Curve (Mahalanobis)
 ![ROC Curve](images/ROC%20Curve%20(Mahalanobis).png)
 
 ---
 
-## 🧮 Key Findings
+## Key Findings
 - The system achieved **ROC AUC = 1.0** and **Accuracy = 99.3%**.  
 - **False Positive Rate:** Only 0.8% of safe prompts were wrongly flagged.  
 - **True Positive Rate:** 100% of anomalies were correctly detected.  
@@ -80,7 +80,7 @@ Posterior probability `P(malicious | flagged)` is computed to evaluate real-worl
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 Spectra_AI_Anomaly_Detection/
@@ -105,14 +105,14 @@ Spectra_AI_Anomaly_Detection/
 
 ---
 
-## 🧰 Technologies Used
+## Technologies Used
 - **Language:** Python 3.10  
 - **Libraries:** NumPy, SciPy, Scikit-learn, Matplotlib  
 - **Concepts:** Covariance Regularization, Mahalanobis Distance, Bayesian Probability, Statistical Inference  
 
 ---
 
-## 🧩 How to Run
+## How to Run
 ```bash
 # Clone this repository
 git clone https://github.com/Kulkarni-ui/Spectra_AI_Anomaly_Detection.git
@@ -126,7 +126,7 @@ jupyter notebook Spectra_AI_Mini_Challenge_Atharv_Kulkarni.ipynb
 
 ---
 
-## 🧠 Author
+## Author
 **Atharv Kulkarni**  
 B.Tech Artificial Intelligence & Machine Learning  
 Symbiosis Institute of Technology, Pune  
@@ -134,7 +134,7 @@ Symbiosis Institute of Technology, Pune
 
 ---
 
-## 🪶 References
+## References
 1. Ledoit, O., & Wolf, M. (2004). *Honey, I Shrunk the Sample Covariance Matrix.*  
 2. Mahalanobis, P. C. (1936). *On the Generalized Distance in Statistics.*  
 3. Bishop, C. M. (2006). *Pattern Recognition and Machine Learning.*  
