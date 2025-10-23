@@ -136,7 +136,6 @@ print("Labels shape:", labels.shape)
 Note: The .npy files are in binary format and may not preview on GitHub.
 Load them locally in Python or Jupyter Notebook for analysis.
 
----
 
 ## Project Structure
 
