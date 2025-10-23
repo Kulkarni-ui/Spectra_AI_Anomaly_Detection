@@ -56,19 +56,16 @@ Posterior probability `P(malicious | flagged)` is computed to evaluate real-worl
 
 ## Visualizations
 
-### Distribution of Embedding Feature Values
-![Embedding Distribution](./images/embedding_distribution.png)
+## 📈 Visualizations  
 
----
+### 🌈 Distribution of Embedding Feature Values  
+![Embedding Distribution](images/embedding_distribution.png)
 
-### Histogram of Mahalanobis Distances
-![Mahalanobis Histogram](images/Histogram%20of%20Mahalanobis%20Distances.png)
+### 📊 Histogram of Mahalanobis Distances  
+![Mahalanobis Histogram](images/Histogram_of_Mahalanobis_Distances.png)
 
----
-
-### ROC Curve (Mahalanobis)
-![ROC Curve](images/ROC%20Curve%20(Mahalanobis).png)
-
+### 🚀 ROC Curve (Mahalanobis)  
+![ROC Curve](images/ROC_Curve_Mahalanobis.png)
 ---
 
 ## Key Findings
