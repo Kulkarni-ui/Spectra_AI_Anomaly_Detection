@@ -57,7 +57,7 @@ Posterior probability `P(malicious | flagged)` is computed to evaluate real-worl
 ## 📈 Visualizations
 
 ### 🌈 Distribution of Embedding Feature Values  
-![Embedding Distribution](images/embedding_distribution.png)
+![Embedding Distribution](Distribution of Embedding Feature Values spectra.png)
 
 ### 📊 Histogram of Mahalanobis Distances  
 ![Mahalanobis Histogram](images/Histogram_of_Mahalanobis_Distances.png)
