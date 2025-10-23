@@ -122,6 +122,8 @@ The project datasets are stored as NumPy binary (`.npy`) files for efficient and
 | `data/anomalous_embeddings.npy` | Embeddings of anomalous (unsafe) prompts |
 | `data/labels.npy` | Ground-truth binary labels (0 = Normal, 1 = Anomaly) |
 
+---
+
 #### 🔧 How to Load the Data
 ```python
 import numpy as np
@@ -133,6 +135,8 @@ print("Labels shape:", labels.shape)
 
 Note: The .npy files are in binary format and may not preview on GitHub.
 Load them locally in Python or Jupyter Notebook for analysis.
+
+---
 
 ---
 ## Project Structure
