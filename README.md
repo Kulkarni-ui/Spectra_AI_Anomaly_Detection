@@ -10,6 +10,17 @@
 
 ---
 
+### **Project Summary**
+
+| **Focus** | **Methodology** | **Performance** | **Core Libraries** |
+|--------------|--------------------|--------------------|----------------------|
+| AI Safety – Detecting unsafe or malicious prompts at the **embedding level** | Mahalanobis Distance, Ledoit–Wolf Covariance Regularization, Bayesian Inference | **Accuracy:** 99.3% &nbsp;&nbsp;•&nbsp;&nbsp; **ROC AUC:** 1.000 &nbsp;&nbsp;•&nbsp;&nbsp; **F1-score:** 0.95 | NumPy, SciPy, Scikit-learn, Matplotlib |
+
+> **Goal:** Ensure *reliable and explainable anomaly detection* in large language model prompts through statistically grounded methods.
+
+
+---
+
 ## Overview
 This project was developed as part of the **Spectra AI Mini Challenge**, focusing on building an **interpretable anomaly detection system** for identifying unsafe or malicious AI prompts.  
 It leverages:
