@@ -63,7 +63,7 @@ Posterior probability `P(malicious | flagged)` is computed to evaluate real-worl
 ![Mahalanobis Histogram](https://github.com/Kulkarni-ui/Spectra_AI_Anomaly_Detection/blob/main/images/Histogram%20of%20Mahalanobis%20Distances.png)
 
 ### 🚀 ROC Curve (Mahalanobis)  
-![ROC Curve](images/ROC_Curve_Mahalanobis.png)
+![ROC Curve](https://github.com/Kulkarni-ui/Spectra_AI_Anomaly_Detection/blob/main/images/ROC%20Curve%20(Mahalanobis).png)
 
 ---
 
