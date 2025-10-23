@@ -1,5 +1,7 @@
 # Spectra_AI_Anomaly_Detection  
 **Prompt-Level Anomaly Detection for AI Safety using Mahalanobis Distance, Ledoit–Wolf Covariance, and Bayesian Inference**
+> _“Ensuring AI Safety through Statistical Rigor and Explainable Anomaly Detection”_
+
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
 ![Framework](https://img.shields.io/badge/Framework-Scikit--learn%20%7C%20NumPy%20%7C%20SciPy-green)
