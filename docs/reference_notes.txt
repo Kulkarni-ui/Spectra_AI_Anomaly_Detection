@@ -1,0 +1,79 @@
+==================================================
+Spectra AI Mini Challenge – Reference Notes
+Author: Atharv Kulkarni
+==================================================
+
+Project Title:
+Prompt-Level Anomaly Detection for AI Safety using Mahalanobis Distance, Ledoit–Wolf Covariance, and Bayesian Inference
+
+--------------------------------------------------
+Objective:
+To develop an interpretable, simulation-based anomaly detection framework that can identify unsafe or adversarial prompts in Large Language Models (LLMs).
+
+--------------------------------------------------
+Theoretical Foundation:
+1. Mahalanobis Distance (P. C. Mahalanobis, 1936)
+   - A multivariate distance metric used to measure how far a sample lies from the mean of a distribution.
+   - Formula: D(x) = sqrt((x - μ)^T Σ⁻¹ (x - μ))
+
+2. Ledoit–Wolf Covariance Regularization (O. Ledoit & M. Wolf, 2004)
+   - Provides a shrinkage estimator for covariance matrices to avoid overfitting and numerical instability in high-dimensional data.
+
+3. Bayesian Posterior Probability (K. P. Murphy, 2012)
+   - Computes P(malicious | flagged) to estimate the reliability of an anomaly flag based on prior knowledge and observed evidence.
+
+4. Chi-Square Probability Mapping
+   - Converts squared Mahalanobis distances into p-values.
+   - If p < 0.01 → anomaly detected.
+
+--------------------------------------------------
+Dataset Simulation:
+- Total Samples: 1080
+  - Normal: 1000
+  - Anomalous: 80
+- Embedding Dimension: 300
+- Simulated using Gaussian distribution for reproducibility.
+
+--------------------------------------------------
+Model Performance Summary:
+- ROC AUC = 1.0000
+- Accuracy = 99.3%
+- Precision = 90.9%
+- Recall = 100%
+- F1 Score = 0.95
+- False Positive Rate: 0.8%
+- True Positive Rate: 100%
+
+--------------------------------------------------
+Key References:
+1. Ledoit, O., & Wolf, M. (2004). "Honey, I Shrunk the Sample Covariance Matrix."
+2. Mahalanobis, P. C. (1936). "On the Generalized Distance in Statistics."
+3. Bishop, C. M. (2006). "Pattern Recognition and Machine Learning." Springer.
+4. Murphy, K. P. (2012). "Machine Learning: A Probabilistic Perspective." MIT Press.
+5. Hastie, T., Tibshirani, R., & Friedman, J. (2009). "The Elements of Statistical Learning."
+
+--------------------------------------------------
+Implementation Notes:
+- Used Python (NumPy, SciPy, scikit-learn, matplotlib).
+- Covariance estimation: Ledoit–Wolf method from sklearn.covariance.
+- Anomaly decision boundary: Chi-square p-value < 0.01.
+- Bayesian reliability computed for priors [0.001, 0.01, 0.05, 0.1].
+- Visualizations include:
+  - Embedding Distribution Plot
+  - Histogram of Mahalanobis Distances
+  - ROC Curve
+
+--------------------------------------------------
+Future Scope:
+- Extend to real LLM embeddings (e.g., GPT, BERT sentence vectors).
+- Incorporate streaming prompt detection.
+- Combine statistical + neural anomaly detection (hybrid systems).
+- Evaluate robustness under prompt-injection attacks.
+
+--------------------------------------------------
+Author Information:
+Atharv Kulkarni
+B.Tech Artificial Intelligence and Machine Learning
+Symbiosis Institute of Technology, Pune
+GitHub: https://github.com/Kulkarni-ui/Spectra_AI_Anomaly_Detection
+==================================================
