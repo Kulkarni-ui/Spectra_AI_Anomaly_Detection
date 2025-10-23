@@ -57,7 +57,7 @@ Posterior probability `P(malicious | flagged)` is computed to evaluate real-worl
 ## Visualizations
 
 ### Distribution of Embedding Feature Values
-![Embedding Distribution](images/Distribution%20of%20Embedding%20Feature%20Values.png)
+![Embedding Distribution](<img width="713" height="470" alt="Distribution of Embedding Feature Values spectra" src="https://github.com/user-attachments/assets/ac581399-f0a2-4322-ad57-594064dee4ce" />)
 
 
 ---
