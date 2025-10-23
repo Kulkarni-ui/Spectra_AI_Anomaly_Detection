@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🚀 Spectra_AI_Anomaly_Detection  
 **Prompt-Level Anomaly Detection for AI Safety using Mahalanobis Distance, Ledoit–Wolf Covariance, and Bayesian Inference**
 
@@ -143,3 +144,7 @@ Symbiosis Institute of Technology, Pune
 ---
 
 ⭐ *If you found this project insightful, don’t forget to star the repository!*
+=======
+# Spectra_AI_Anomaly_Detection
+Spectra AI Mini Challenge — Prompt-level anomaly detection using Mahalanobis distance, Ledoit–Wolf covariance, and Bayesian inference for AI safety
+>>>>>>> 9e502e967101c3188757088244f6cfcdc3dfb48d
