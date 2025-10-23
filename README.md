@@ -56,17 +56,15 @@ Posterior probability `P(malicious | flagged)` is computed to evaluate real-worl
 
 ## Visualizations
 
-## 📈 Visualizations  
-
-### 🌈 Distribution of Embedding Feature Values  
+### 🧩 Distribution of Embedding Feature Values
 ![Embedding Distribution](images/embedding_distribution.png)
 
-### 📊 Histogram of Mahalanobis Distances  
-![Mahalanobis Histogram](images/Histogram_of_Mahalanobis_Distances.png)
-
-### 🚀 ROC Curve (Mahalanobis)  
-![ROC Curve](images/ROC_Curve_Mahalanobis.png)
+### 📉 Histogram of Mahalanobis Distances
+![Embedding Distribution](images/Distribution%20of%20Embedding%20Feature%20Values.png)
 ---
+
+### 🎯 ROC Curve (Mahalanobis)
+![ROC Curve](images/ROC%20Curve%20(Mahalanobis).png)
 
 ## Key Findings
 - The system achieved **ROC AUC = 1.0** and **Accuracy = 99.3%**.  
