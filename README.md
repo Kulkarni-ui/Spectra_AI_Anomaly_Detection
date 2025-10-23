@@ -137,8 +137,7 @@ Note: The .npy files are in binary format and may not preview on GitHub.
 Load them locally in Python or Jupyter Notebook for analysis.
 
 ```
-
----
+```
 ## Project Structure
 
 Spectra_AI_Anomaly_Detection/
@@ -159,7 +158,7 @@ Spectra_AI_Anomaly_Detection/
 │
 ├── Spectra_AI_Mini_Challenge_Atharv_Kulkarni.ipynb
 └── README.md
----
+```
 
 ---
 
