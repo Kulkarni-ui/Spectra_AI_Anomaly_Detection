@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🚀 Spectra_AI_Anomaly_Detection  
 **Prompt-Level Anomaly Detection for AI Safety using Mahalanobis Distance, Ledoit–Wolf Covariance, and Bayesian Inference**
 
