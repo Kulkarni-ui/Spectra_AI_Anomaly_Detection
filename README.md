@@ -1,6 +1,6 @@
 # Spectra_AI_Anomaly_Detection  
 **Prompt-Level Anomaly Detection for AI Safety using Mahalanobis Distance, Ledoit–Wolf Covariance, and Bayesian Inference**
-> _“Ensuring AI Safety through Statistical Rigor and Explainable Anomaly Detection”_
+**> _“Ensuring AI Safety through Statistical Rigor and Explainable Anomaly Detection”_**
 
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
@@ -185,7 +185,7 @@ The approach maintains **numerical stability**, **strong class separation**, and
 
 ---
 
- *The developed pipeline thus represents a step toward safe, explainable, and resilient AI systems that can autonomously detect and mitigate unsafe or adversarial behavior.*
+***The developed pipeline thus represents a step toward safe, explainable, and resilient AI systems that can autonomously detect and mitigate unsafe or adversarial behavior***
 
 
 ## References
