@@ -165,6 +165,29 @@ Symbiosis Institute of Technology, Pune
 
 ---
 
+## Conclusion
+
+This project successfully demonstrates an interpretable and mathematically grounded framework for **prompt-level anomaly detection in AI systems**.  
+By combining **Mahalanobis distance**, **Ledoit–Wolf covariance regularization**, and **Bayesian inference**, the system achieves highly reliable identification of unsafe or malicious inputs.  
+Experimental results show **ROC AUC = 1.0** and **Accuracy = 99.3%**, confirming the robustness and precision of the model.  
+The approach maintains **numerical stability**, **strong class separation**, and **low false-positive rates**, making it suitable for real-world AI safety monitoring and trust evaluation tasks.
+
+---
+
+## Future Scope
+
+- **Integration with LLM pipelines:** Extend the system to monitor prompts and responses in real-time within large language model environments (e.g., GPT, Claude).  
+- **Adaptive thresholding:** Employ dynamic or context-aware anomaly thresholds based on model confidence and prior history.  
+- **Hybrid models:** Combine **statistical anomaly detection** with **deep learning–based embeddings** for improved generalization across domains.  
+- **Explainability:** Implement SHAP or feature attribution methods to visualize why specific prompts are flagged as anomalous.  
+- **Scalability:** Optimize for deployment on large-scale datasets and integrate with MLOps pipelines for automated monitoring.  
+- **Cross-domain validation:** Evaluate performance on datasets from cybersecurity, finance, and social media prompt data to ensure transferability.
+
+---
+
+ *The developed pipeline thus represents a step toward safe, explainable, and resilient AI systems that can autonomously detect and mitigate unsafe or adversarial behavior.*
+
+
 ## References
 1. Ledoit, O., & Wolf, M. (2004). *Honey, I Shrunk the Sample Covariance Matrix.*  
 2. Mahalanobis, P. C. (1936). *On the Generalized Distance in Statistics.*  
